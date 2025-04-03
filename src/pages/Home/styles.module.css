@@ -1,0 +1,132 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 145px - 100px);
+  position: relative;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.p {
+  margin: 0;
+  padding: 0 2px 0 0;
+  position: absolute;
+  left: 0;
+  top: 402px;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 52px */
+  letter-spacing: -2.08px;
+  background: var(
+    --unnamed,
+    linear-gradient(90deg, #61a8fd 0%, #4652f3 49%, #3844a8 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.image {
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+}
+.hao1,
+.hao2,
+.hao3,
+.hao4,
+.hao5,
+.hao6,
+.hao7,
+.hao8,
+.hao9,
+.hao10,
+.hao11 {
+  position: absolute;
+}
+
+.hao1 {
+  width: 256px;
+  height: 152px;
+  right: calc(100% - 256px + 47px);
+  top: 125px;
+}
+
+.hao2 {
+  width: 471px;
+  height: 265px;
+  top: 156px;
+  left: 679px;
+}
+
+.hao3 {
+  width: 256px;
+  height: 152px;
+  left: calc(100% - 256px + 40px);
+  top: 123px;
+}
+
+.hao4 {
+  width: 328px;
+  height: 210px;
+  bottom: 0;
+  left: 75px;
+}
+
+.hao6 {
+  width: 334px;
+  height: 189px;
+  bottom: 0;
+  right: 396px;
+}
+
+.hao7 {
+  width: 256px;
+  height: 152px;
+  right: calc(100% - 256px + 47px);
+  top: 156px;
+}
+
+.hao10 {
+  width: 328px;
+  height: 210px;
+  left: calc(100% - 328px + 40px);
+  top: 250px;
+}
+
+.hao9 {
+  width: 334px;
+  height: 189px;
+  bottom: 100px;
+  right: calc(100% - 334px + 46px);
+}
+
+.hao11 {
+  width: 256px;
+  height: 152px;
+  bottom: 0;
+  right: 552px;
+}
+
+.hao8 {
+  width: 471px;
+  height: 265px;
+  top: 156px;
+  left: 679px;
+}
+
+.hao12 {
+  width: 471px;
+  height: 265px;
+  top: 156px;
+  left: 679px;
+}

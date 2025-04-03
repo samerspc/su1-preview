@@ -1,0 +1,12 @@
+:root {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+}
