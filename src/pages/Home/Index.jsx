@@ -28,7 +28,7 @@ const GroupImage = ({ images, groupState }) => {
       }, 1000);
       return () => clearTimeout(timer);
     }
-  }, [groupState, currentState]);
+  }, [groupState]);
 
   const currentImage = images[currentState];
 
